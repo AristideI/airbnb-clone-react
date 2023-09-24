@@ -16,7 +16,7 @@ export default function Hero() {
   });
 
   let filterss = filters.map((elt) => {
-    return <Filter text={elt} />;
+    return <Filter key={filters.indexOf(elt) + "one"} text={elt} />;
   });
   return (
     <article className="my-8">
