@@ -80,6 +80,11 @@ export default function Main() {
           );
         })}
       </section>
+      <div className="grid place-content-center mb-8">
+        <button className="text-white font-semibold bg-black text-xl px-6 py-2 rounded-lg">
+          Load More
+        </button>
+      </div>
     </article>
   );
 }
